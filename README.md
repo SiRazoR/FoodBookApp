@@ -1,6 +1,6 @@
 # FoodBookApp
 
-#Live: https://sirazor.github.io/FoodBookApp/
+> ** #Live: ** https://sirazor.github.io/FoodBookApp/
 
 FoodBook ma za zadanie wspomagać użytkowników przy wyborze śniadania, obiadu, kolacji lub deseru do przygotowania. Na stronie można zaznaczać produkty, które posiada się w swojej lodówce, a aplikacja ma za zadanie wybrać przepis, który w największym stopniu będzie pokrywał się z produktami przez niego podanymi. Zarejestrowany użytkownik ma możliwoć dodawać przepisy do ulubionych.
 
