@@ -1,3 +1,5 @@
+import { env } from './config';
+
 // The file contents for the current environment will overwrite these during build.
 // The build system defaults to the dev environment which uses `environment.ts`, but if you do
 // `ng build --env=prod` then `environment.prod.ts` will be used instead.
@@ -6,11 +8,11 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: 'AIzaSyBJVo6Yyki9F0eJ3pUN3JznY6SXzF026X4',
-    authDomain: 'foodbook-2b274.firebaseapp.com',
-    databaseURL: 'https://foodbook-2b274.firebaseio.com',
-    projectId: 'foodbook-2b274',
-    storageBucket: 'foodbook-2b274.appspot.com',
-    messagingSenderId: '815199783804'
+    apiKey: env.firebaseConfig.apiKey,
+    authDomain: env.firebaseConfig.authDomain,
+    databaseURL: env.firebaseConfig.databaseURL,
+    projectId: env.firebaseConfig.projectId,
+    storageBucket: env.firebaseConfig.storageBucket,
+    messagingSenderId: env.firebaseConfig.messagingSenderId
   }
 };
