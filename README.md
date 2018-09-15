@@ -14,3 +14,6 @@ Aplikacja wykorzystuje HTML, CSS, Angular5 oraz TypeScript. Zakres materiału ob
   - Logowanie oraz rejestracja z użyciem firebase(możliwość rejestracji z użyciem mediów społecznościowych).
   - Pełna responsywność aplikacji.
   - Zastosowanie bootstrapa.
+  
+ ### Podgląd projektu
+![podgląd projektu](https://i.imgur.com/5HGhCNi.gif?raw=true)
